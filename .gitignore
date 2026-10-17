@@ -1,0 +1,12 @@
+# Собранные файлы — публикуются в GitHub Releases (собрать: build.bat)
+*.exe
+*.dll
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
+
+# Результаты работы relink.py
+relink_report_*.csv
+_relink_backup_*/
